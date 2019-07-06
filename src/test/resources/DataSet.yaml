@@ -1,0 +1,10 @@
+name: product
+replicationFactor: 1
+strategy: org.apache.cassandra.locator.SimpleStrategy
+columnFamilies:
+  name: product_details
+  rows:
+    columns:
+      {name: ID, value: uuid()}
+      {name: PRICE, value: 12.99}
+      {name: PRODUCT_ID, value: 13860428}
