@@ -26,3 +26,8 @@ Navigate to the project folder and execute the below command in the terminal.
 
 Above command will bring up the application. Please use sample postman collection available in the /retail-api/schema/Retail.postman_collection.json file and import in POSTMAN to test the api's.
 
+
+Note:
+If you are running this from the main method in the java file or running the test cases seperately. Please perform the following:
+- Install Lombok plugin in your IDE to suppor the @Slf4j and @Data annotations.
+- Enable annotation processing in IntelliJ IDE in the perferences menu.
